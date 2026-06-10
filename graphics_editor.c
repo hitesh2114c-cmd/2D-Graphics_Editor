@@ -21,7 +21,7 @@ Shape shapes[MAX_SHAPES];
 int current_id = 1;
 
 void clear_canvas() {
-    for (int i = 0; i < HEIGHT; i++) {
+    for (int i = 0; i < HEIGHT; i++) { 
         for (int j = 0; j < WIDTH; j++) canvas[i][j] = ' ';
     }
 }
