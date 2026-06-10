@@ -1,0 +1,24 @@
+=========================================
+GENERATIVE AI INTERACTION LOG - MINI PROJECT
+=========================================
+
+PROMPT USED:
+Act as an expert software engineer specializing in computer graphics. I am building a 2D Graphics Editor project from scratch, and I want to develop it progressively across three distinct phases. 
+
+Please provide a clean, modular, and complete code implementation that covers the following milestones:
+
+Phase 1: Drawing Primitives
+- Implement Bresenham's Line Generation Algorithm.
+- Implement the Midpoint Circle Generation Algorithm.
+- Ensure these functions draw onto a structured canvas or pixel buffer.
+
+Phase 2: Render Loop & User Input
+- Implement a continuous main render loop that clears the screen and updates the display.
+- Create an interactive user input system (add_shape) that allows a user to input a shape type (line or circle) along with its coordinates/parameters, storing them dynamically for rendering.
+
+Phase 3: Object Management (Delete and Modify)
+- Implement a delete functionality that allows the user to select and remove an existing shape from the canvas or tracking list.
+- Implement a modify functionality that allows the user to select an existing shape and update its properties (such as changing coordinates or dimensions).
+
+
+
